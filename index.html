@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="bobo" <h1>BONJOUR TOUS LE MONDE</h1>
+    <script>
+        let age = 19;
+        let ageVoisin1 = 26;
+        let ageVoisin2 = 20;
+        let orLogic = (age > ageVoisin1) || (age > ageVoisin2);
+        let andLogic = (age > ageVoisin1) && (age > ageVoisin2);
+        console.log({ age, ageVoisin1, ageVoisin2, orLogic, andLogic });
+
+        //modification
+        // function additionner2Nombre(nombre1 , nombre2){
+        // let resultat = nombre1 + nombre2;
+        // return resultat;
+        // }
+        // console.log(additionner2Nombre(1 , 1));
+        const additionner2Nombre = (nombre1, nombre2) => {
+            let resultat = nombre1 + nombre2;
+            return resultat;
+        }
+        console.log(additionner2Nombre(1, 1))
+
+        const calculer = (nombre1, nombre2, type) => {
+
+            if (type === "addition") {
+                resultat = nombre1 + nombre2;
+                console.log(resultat);
+
+            }
+            else if (type === "soustraction") {
+                resultat = nombre1 - nombre2;
+                console.log(resultat);
+            }
+            else if (type === "multiplication") {
+                resultat = nombre1 * nombre2;
+                console.log(resultat);
+            }
+            else if (type === "division") {
+                resultat = nombre1 / nombre2;
+                console.log(resultat);
+            }
+        }
+        calculer(5, 7, "soustraction")
+
+
+
+
+            < !--modification modification
+        modification modification-- >
+
+    </script>
+
+</body>
+
+</html>
